@@ -56,6 +56,7 @@ footer {
     padding: 15px;
     margin-top: auto;   
 }
+
 fieldset {
     width: 350px;
     padding: 25px;
@@ -195,4 +196,16 @@ h3{
 .about-content ul li {
   margin-bottom: 8px;
   font-weight: 500;
+}
+//video insertion
+.videos {
+    width: 23%;
+    text-align: center;
+}
+.video1
+{
+    width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;  
 }
