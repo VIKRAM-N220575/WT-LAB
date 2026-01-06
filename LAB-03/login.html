@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="icon" href="logo.PNG">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<div class="logo"><a href="index.html">☕ Cold Coffee Shop</a></div>
+		<nav>
+			<a href="index.html"><b>Home Page</b></a>
+			<a href="menu.html"><b>Menu</b></a>
+			<a href="contact.html"><b>About Us</b></a>
+		</nav>
+	</header>
+	<center>
+	<form action="" method="post" id="myForm">
+		<fieldset>
+			<label>Username</label>
+			<input type="name" name="name" required>
+			<label>Email</label>
+			<input type="email" name="email" required>
+			<label>Password</label>
+			<input type="Password" name="password" required>
+			<br>
+			<button onclick="submitted()">Submit</button>
+		</fieldset>
+	</form>
+	<table border="2" width="100%">
+		<caption><b><h2>Must try</h2></b></caption>
+		<th>
+			S.NO
+			<td><b><center>ITEM-NAME</center></b></td>
+			<td><b><center>Quantity</center></b></td>
+			<td><b><center>Price</center></b></td>
+		</th>
+		<tr>
+			<td><b><center>1</center></b></td>
+			<td><b><center>Caramel Chill Brew</center></b></td>
+			<td><b><center>1</center></b></td>
+			<td><b><center>₹180</center></b></td>
+		</tr>
+		<tr>
+			<td><b><center>2</center></b></td>
+			<td><b><center>Vanilla Ice Latte</center></b></td>
+			<td><b><center>2</center></b></td>
+			<td><b><center>₹220</center></b></td>
+		</tr>
+		<tfoot>
+		<tr>
+			<td colspan="3"><b><center>Total Amount</center></b></td>
+			<td><b><center>₹400</center></b></td>
+		</tr>
+		</tfoot>
+	</table>
+	<h3>...Our Top Picks...</h3>
+	<div class="top-picks">
+  		<div class="coffee-card">
+		    <img src="coffee5.JFIF" alt="Classic Cold Coffee">
+		    <p>Classic Iced Coffee</p>
+		</div>
+		<div class="coffee-card">
+		    <img src="coffee6.JFIF" alt="Chocolate Cold Coffee">
+		    <p>Chocolate Frost Coffee</p>
+		</div>
+		<div class="coffee-card">
+		    <img src="coffee7.JFIF" alt="Caramel Cold Coffee">
+		    <p>Caramel Chill Brew</p>
+		</div>
+		<div class="coffee-card">
+		    <img src="coffee8.JFIF" alt="Vanilla Cold Coffee">
+		    <p>Vanilla Ice Latte</p>
+		</div>
+	</div>
+	<footer>
+		&copy; 2025 Cold Coffee Shop | All Rights Reserved
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
